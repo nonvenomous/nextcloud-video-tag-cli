@@ -1,0 +1,25 @@
+{
+  "name": "nextcloud-video-tag-cli",
+  "version": "1.0.0",
+  "author": "nonvenomous",
+  "description": "Nextcloud Video Tag CLI Tool",
+  "main": "index.js",
+  "bin": {
+    "nextcloud-video-cli": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "lint": "prettier --check .",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "commander": "^12.1.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.3.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "MIT"
+}
